@@ -3,11 +3,10 @@ package aeroapi
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/brycebmueller/airline-flight-tracker/internal/models"
 	"io/ioutil"
 	"net/http"
 	"time"
-
-	"airport-tracker/internal/aeroapi/models"
 )
 
 const (

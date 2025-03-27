@@ -1,12 +1,11 @@
 package main
 
 import (
+	"github.com/brycebmueller/airline-flight-tracker/internal/aeroapi"
+	"github.com/brycebmueller/airline-flight-tracker/internal/api"
 	"log"
 	"net/http"
 	"os"
-
-	"airport-tracker/internal/aeroapi"
-	"airport-tracker/internal/api"
 )
 
 func main() {

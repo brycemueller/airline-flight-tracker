@@ -2,10 +2,9 @@ package api
 
 import (
 	"encoding/json"
+	"github.com/brycebmueller/airline-flight-tracker/internal/aeroapi"
 	"net/http"
 	"strings"
-
-	"airport-tracker/internal/aeroapi"
 )
 
 // Handlers encapsulates HTTP handlers

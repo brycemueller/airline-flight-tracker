@@ -1,6 +1,9 @@
-package main
+package aeroapi
 
-import "time"
+import (
+	"github.com/brycebmueller/airline-flight-tracker/internal/models"
+	"time"
+)
 
 // Airport represents an airport with code and name
 type Airport struct {
@@ -34,4 +37,12 @@ type Flight struct {
 	Status        FlightStatus `json:"status"`
 	Terminal      string       `json:"terminal"`
 	Gate          string       `json:"gate"`
+}
+
+type DepartureResponse struct {
+	Departures []models.Flight `json:"departures"`
+}
+
+type ArrivalResponse struct {
+	Departures []models.Flight `json:"departures"`
 }
